@@ -7,54 +7,42 @@
     <link rel="stylesheet" href="styles.css">
 
 <style>
-    #introp1 {
-        margin: 10px 50px; /* 20px top and bottom, 40px left and right */
-        padding: 10px;
-        width: calc(100% - 80px); /* Subtracting 80px for left and right margin */
-        background-color: #FFFFF0;
-        text-align: justify;
-    }
-
-    #introp2 {
-        margin: 20px 40px; /* 20px top and bottom, 40px left and right */
-        padding: 10px;
-        width: calc(100% - 80px); /* Subtracting 80px for left and right margin */
-        text-align: justify;
-        font-family: monospace;
-        background-color: #FFFFF0;
-    }
-
-    .jbcrew {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 50%;
-    }
-
-    footer {
-        margin-top: 20px;
-        background-color: #D6001C;
-        color: #FFF;
-        padding: 10px 0;
-        text-align: center;
-        clear: both; /* Ensures proper display below content */
-    }
-
-    .footer-top {
-        height: 5px;
-    }
+#introp1 {
+  margin: 20;  
+  padding: 10px;
+  width: 98.5%;
+  background-color: #FFFFF0;
+  text-align: justify;
+  font-family: arial, sans-serif;
+}
 
 #h {
   color: #D6001C;
 }
-
+    
+#introp2 {
+  margin: 20;  
+  padding: 10px;
+  width: 98.5%;
+  text-align:justify;
+  font-family:monospace;
+  background-color: #ffffff;
+}
+    
+.jbcrew {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}    
 </style>
 </head>
 <body>
 
   <header>
     <nav class="navbar navbar-expand-lg navbar-dark bg-red">
-        <a class="navbar-brand" href="#"><img src="jollibee-logo.png" alt="Jollibee Logo"></a>
+        <a class="navbar-brand" href="#"><img src="Jollibee-logo.jpg" alt="Jollibee Logo"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
@@ -99,10 +87,18 @@
     <p>
     Founded by Dr. Tony Tan Caktiong, Jollibee began as a modest ice cream parlor before transforming into the country's favorite fast-food giant. Today, Jollibee represents not just a meal, but a cherished part of Filipino culture, spreading happiness with every serving. Explore our menu of delicious burgers, spaghetti, Chickenjoy, and more, as we continue to bring a taste of joy to families in the Philippines and around the world.</p>
     
-    <blockquote cite="https://jollibeegroup.com/history-milestones/#:~:text=Our%20Jollibee%20Group%20was%20founded,the%20opportunity%20for%20hot%20meals."><i>Join us in celebrating the joy of eating at Jollibee, where eating is a heartwarming experience for everyone.</i></blockquote>
-    
-    <br>
-    <br>
+    <div style="display: flex; align-items: center; flex-direction: row-reverse; margin: 50px;">
+    <img style="border: 3px solid #D6001C;" src="d1.gif" alt="Joli dance" style="flex: 0 0 30%; max-width: 200px; margin-left: 20px;">
+        <blockquote style="text-align: right;" cite="https://jollibeegroup.com/history-milestones/#:~:text=Our%20Jollibee%20Group%20was%20founded,the%20opportunity%20for%20hot%20meals."><i>Join us in celebrating the joy of eating at Jollibee, where eating is a heartwarming experience for everyone.<br><b>Sa Jollibee, Bida ang Saya</b></i>
+        
+        <br>
+        <br>
+            
+        <audio controls autoplay>
+        <source src="jolly%20song.mp3" type="audio/mpeg">
+        </audio>
+        </blockquote>
+    </div>    
     
     <hr size= 3 noshade>
     
@@ -144,14 +140,13 @@
         <li>Last but definetly not the least, <b>Hetty</b>, the last addition to the Jollibee crew, was introduced in 1984 to endorse the “jolly spaghetti” product line. Designed as a young girl with blond hair resembling spaghetti strands, she has become a fan favorite after Jollibee and continues to be a prominent figure in the jolly crew.</li><br>
     </ol>
     </section>
-
+        
     <br>
-    <br>
-    
+    <br>    
+        
     <!-- Add footer with developer's name -->
     <footer>
-        <div class="footer-top" style="background-color: #FFB80E; height: 5px;"></div>
-        <p style="background-color: #D6001C; color: #FFF; padding: 10px 0; text-align: center;">Developed by <span style="color: #FFB80E;">Eliza Galang</span></p>
+        <p>Developed by Eliza Galang</p>
     </footer>
     </section>
 

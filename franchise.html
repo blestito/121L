@@ -1,16 +1,26 @@
+87% of storage used … If you run out, you can't create, edit, and upload files. Get 100 GB of storage for ₱89.00 ₱0 for 1 month.
+franchise.html
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Franchise - Jollibee</title>
-    <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="styles.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
 <body>
-    <!-- Include header -->
-    <header>
+  <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-red">
-            <a class="navbar-brand" href="#"><img src="Jollibee-logo.jpg" alt="Jollibee Logo"></a>
+        <a class="navbar-brand" href="#"><img src="Jollibee-logo.png" alt="Jollibee Logo"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
@@ -19,16 +29,24 @@
                     <li class="nav-item">
                         <a class="nav-link" href="aboutus.html">About Us</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="menu.html">Menu</a>
-                    </li>
+                    <li class="nav-item active">
+    <div class="dropdown">
+        <button class="nav-link dropdown-toggle" type="button" id="menuDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Menu
+        </button>
+        <div class="dropdown-menu" aria-labelledby="menuDropdown">
+            <a class="dropdown-item" href="menu.html">View Menu</a>
+            <a class="dropdown-item" href="order.html">Delivery</a>
+        </div>
+    </div>
+</li>
                     <li class="nav-item">
                         <a class="nav-link" href="branches.html">Branches</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="gallery.html">Gallery</a>
                     </li>
-                    <li class="nav-item active">
+                    <li class="nav-item">
                         <a class="nav-link" href="order.html">Order Now</a>
                     </li>
                     <li class="nav-item">
@@ -37,6 +55,7 @@
                     <li class="nav-item">
                         <a class="nav-link" href="team.html">Meet the Team</a>
                     </li>
+
                 </ul>
             </div>
         </nav>
@@ -46,7 +65,7 @@
             
             
                
-                        <h1>Franchising With Jollibee</h1>
+                        <h1>Franchising</h1>
                            <p>Delicious Opportunities Await</p>
                     </div>
                             <p>Becoming part of the Jollibee Group proves to be a lucrative investment. Over time, we've evolved into a company known for prioritizing customer satisfaction above all else. This reputation stems from our commitment to staying abreast of prevailing consumer preferences, attentively gauging what our customers desire. We consistently unveil fresh offerings, maintain direct communication with our customer base through diverse initiatives and incentives, and craft marketing strategies that resonate with their emotions.</p>
@@ -55,19 +74,22 @@
 
            
                             <h1>FAQ</h1>
-                            <h2 class="home-text34 heading2">Frequently Asked Questions</h2>
+                            <h2>Frequently Asked Questions</h2>
                          
                                 <p>Here are some of the most common questions that we get.</p>
                             
                         
                                         <h3><b>What are the requirements to become a franchisee?</h3></b>
                                 
-                                    <p>Below are the criteria that Jollibee seeks in potential franchisees:‍</p>
-                                    <p>A self-motivated entrepreneur</p>
-                                    <p>Capable of inspiring and leading their team</p>
-                                    <p>Willing to dedicate time to manage daily restaurant operations</p>
-                                    <p>Open to undergoing comprehensive training in restaurant operations on a full-time basis</p>
-                                    <p>Possesses the financial capacity to meet the investment requirements</p>
+                <p>Below are the criteria that Jollibee seeks in potential franchisees:</p>
+                <ul>
+                    <li>A self-motivated entrepreneur</li>
+                    <li>Capable of inspiring and leading their team</li>
+                    <li>Willing to dedicate time to manage daily restaurant operations</li>
+                    <li>Open to undergoing comprehensive training in restaurant operations on a full-time basis</li>
+                    <li>Possesses the financial capacity to meet the investment requirements</li>
+                </ul>
+                
 <br>
                        
                                        <h3> How much is the investment requirement for a Jollibee restaurant?</h3>
@@ -99,5 +121,8 @@
 <div class="footer-top" style="background-color: #FFB80E; height: 5px;"></div>
         <p style="background-color: #D6001C; color: #FFF; padding: 10px 0; text-align: center;">Developed by <span style="color: #FFB80E;">Roshan Trinidad</span></p>   
  </footer>
+   <!-- Bootstrap JS (Optional, if needed) -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
+
